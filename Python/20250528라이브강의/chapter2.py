@@ -8,8 +8,49 @@
 
 # 왼쪽 변수의 이름, 오른쪽에는 변수에 담을 값을 적고, 가운데에는 등호(=)를 적습니다.
 a = "안녕하세요"
-print(a)
+# print(a)
+
+"""
+- 특수 문자는 언더 바(_) 허용됩니다.
+- 변수 이름은 숫자로 시작할 수 없습니다.
+- 공백을 포함할 수 없습니다. ex) today is a good day
+- 가급적 알파벳을 사용해주세요
+- 유의미한 뜻을 짓되 누구나 알 수 있어야 합니다.
 
 
+"""
 
+#import keyword
+#print(keyword.kwlist)
+
+# n= 13
+
+
+# print("우리는 12기입니다.")
+# print("우리는 {}기입니다.".format(n))
+# print("우리는 {}기입니다. 그리고 저는 키가 {}이고, 몸무게는 {}입니다.".format(n,175,65))
+# print("3+4={}".format(3+4))
+# n_1 =3
+# n_2 = 4
+# print("3 + 4 = {}".format(n_1 + n_2))
+# print("{}+{}={}".format(n_1, n_2, n_1 + n_2))
+
+# name ="상환" #str ==> 문자열
+# age = 20 #int ==> 정수
+
+# #f-string 
+
+# print (f"제 이름은 상환이고, 나이는 20살입니다.")
+# print(f"제 이름은 {name}이고, 나이는 {age}살입니다.")
+
+print(5%2)
+
+age = 30
+name = "상환"
+n= 12
+
+print(age + n) # 42
+result = age + n
+
+import requests
 
